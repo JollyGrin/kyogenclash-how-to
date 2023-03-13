@@ -1,14 +1,16 @@
+import Hero from '@/components/HowToBoxes/Hero';
+import { Box, Text } from '@chakra-ui/react';
 import { Inter } from 'next/font/google';
+import Image from 'next/image';
 
 const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
   return (
     <>
-      <p style={{ fontSize: '3rem' }}>
-        hdjksahdjk asjkhdsadhjk adjka djkajkdh jkadhjk asdjk ahdjkh asjkd jkasd
-        jkas dh
-      </p>
+      <Box>
+        <Hero />
+      </Box>
     </>
   );
 }
