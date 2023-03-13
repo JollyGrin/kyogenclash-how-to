@@ -9,6 +9,7 @@ export const colors = {
   egg: '#FBF2D8',
   brand: {
     red: '#FF3D46',
+    egg: '#FBF2D8',
   },
 };
 

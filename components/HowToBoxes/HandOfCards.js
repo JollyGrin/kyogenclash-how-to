@@ -2,22 +2,17 @@ import { colors } from '@/styles/theme';
 import { Box, Flex, Image, Text } from '@chakra-ui/react';
 import styled from '@emotion/styled';
 
-const Dominari = () => {
+const HandOfCards = () => {
   return (
     <>
       <StyledContainer>
         <TextContainer>
-          <Image src='/img/badger.png' width={'125px'} />
-          <HeaderText>Dominari</HeaderText>
+          <HeaderText>Hand of Cards</HeaderText>
           <Text>
-            Dominari is an upcoming on chain RTS on Solana that’s planning on
-            releasing the first playable season with Kyogen Clash on March 20.
-            <br />
-            <br />
-            To register, fill out the form at the bottom of this page. Players
-            will be selected and airdropped a Backpack xNFT Collectible that
-            will serve as a game launcher from their wallet!
+            After registration, players are able to see the game board and their
+            hand of cards. In their hand of cards they have the following:
           </Text>
+          <Image src='/img/handofcards.png' pt={3} />
         </TextContainer>
       </StyledContainer>
     </>
@@ -58,4 +53,4 @@ const StyledContainer = styled(Flex)`
   width: 100%;
 `;
 
-export default Dominari;
+export default HandOfCards;
