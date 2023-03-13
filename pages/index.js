@@ -1,3 +1,4 @@
+import Dominari from '@/components/HowToBoxes/Dominari';
 import Hero from '@/components/HowToBoxes/Hero';
 import { Box, Text } from '@chakra-ui/react';
 import { Inter } from 'next/font/google';
@@ -10,6 +11,7 @@ export default function Home() {
     <>
       <Box>
         <Hero />
+        <Dominari />
       </Box>
     </>
   );

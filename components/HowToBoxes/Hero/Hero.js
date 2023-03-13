@@ -22,7 +22,7 @@ const StyledContainer = styled(Flex)`
   background-size: cover;
 
   justify-content: center;
-  align-items: center;
+  align-items: end;
 
   height: 80vh;
   width: 100%;
